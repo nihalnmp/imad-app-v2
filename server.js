@@ -24,8 +24,8 @@ app.get('/ui/bootstrap/bootstrap.min.js', function (req, res) {
 app.get('/ui/images/photo.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/images', 'photo.jpg'));
 });
-app.get('/ui/images/profile_banner.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/images', 'profile_banner.jpg'));
+app.get('/ui/images/banner.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/images', 'banner.png'));
 });
 app.get('/ui/profile.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
