@@ -4,11 +4,10 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
+//request routes
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
@@ -28,7 +27,7 @@ app.get('/ui/profile.html', function (req, res) {
 app.get('/ui/articles.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'articles.html'));
 });
-
+//request routes
 //Images
 
 app.get('/ui/images/photo.jpg', function (req, res) {
