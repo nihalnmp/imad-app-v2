@@ -24,10 +24,10 @@ app.get('/ui/bootstrap/bootstrap.min.js', function (req, res) {
 });
 
 app.get('/ui/profile.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'profile.php'));
+  res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 app.get('/ui/articles.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'articles.php'));
+  res.sendFile(path.join(__dirname, 'ui', 'articles.html'));
 });
 
 //request routes
