@@ -22,12 +22,7 @@ app.get('/ui/articles.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'articles.html'));
 });
 
-app.get('/ui/profile.php', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'profile.php'));
-});
-app.get('/ui/articles.php', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'articles.php'));
-});
+
 
 //request routes
 
