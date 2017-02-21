@@ -47,7 +47,7 @@
         <footer> 
             <div class="container"> 
                 <center> 
-                    <p>COPYRIGHT © 2011. ALL RIGHTS RESERVED</p> 
+                    <p>COPYRIGHT Â© 2011. ALL RIGHTS RESERVED</p> 
                 </center> 
             </div> 
         </footer>
