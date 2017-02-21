@@ -23,8 +23,8 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="ui/profile.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
-                        <li><a href="ui/articles.html"><span class="glyphicon glyphicon-file"></span> Articles</a></li>   
+                        <li><a href="ui/profile.php"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                        <li><a href="ui/articles.php"><span class="glyphicon glyphicon-file"></span> Articles</a></li>   
                     </ul>
                 </div>
             </div>
@@ -37,8 +37,8 @@
                             <h1>Nihal Muhammed</h1>
                             <p>Nihal's IMAD App</p>
                             <br/>
-                            <a  href="ui/profile.html" class="btn btn-danger btn-lg active">Profile</a>
-                            <a  href="ui/articles.html" class="btn btn-danger btn-lg active">Articles</a>
+                            <a  href="ui/profile.php" class="btn btn-danger btn-lg active">Profile</a>
+                            <a  href="ui/articles.php" class="btn btn-danger btn-lg active">Articles</a>
                         </div>
                     </center>
                 </div>
