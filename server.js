@@ -73,7 +73,7 @@ app.get('/ui/images/row2_2.jpg', function (req, res) {
 app.get('/ui/images/row2_3.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/images', 'row2_3.jpg'));
 });
-app.get('/ui/images/row2_4', function (req, res) {
+app.get('/ui/images/row2_4.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/images', 'row2_4.jpg'));
 });
 app.get('/ui/images/row3_1.jpg', function (req, res) {
