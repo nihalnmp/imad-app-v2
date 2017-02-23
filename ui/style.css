@@ -32,7 +32,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url('images/banner.png') no-repeat center center;
+    background: url(images/banner.png) no-repeat center center;
     background-size: cover;
 }
 #banner_content {
@@ -74,4 +74,34 @@ footer {
 }
 #profile_content {
     min-height: 550px;
+}
+#page_title {
+    
+    display: inline-block;
+    overflow: hidden;
+}
+.page_title {
+    float: left;
+    
+}
+.text_title {
+    margin-top: -22px;
+    margin-left: -20px;
+}
+.text_title_caption {
+    margin-top: -10px;
+    font-size: 16px;
+    color: #b9a2a2
+}
+.thumbnail:hover {
+    border: solid 1px blueviolet;
+}
+.thumbnail_images {
+    height: 200px;
+}
+p {
+  font-size: 2.2vmin;
+}
+.topic_heading {
+    color: brown;
 }
